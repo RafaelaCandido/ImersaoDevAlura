@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>
+      Imersão Dev - Aula 01
+    </title>
+    <style>
+        body {
+        font-family: 'Roboto Mono',monospace;
+        min-height: 400px;
+        background-image: url('http://ligadonosul.com.br/imagens/noticias/da336377c8e3ad2beb104acf14f33590.jpg');
+        background-color: #000000;
+        
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        }
+
+        .container {
+        text-align: center;
+        padding: 20px;
+        height: 100vh;
+        }
+
+        .page-title {
+        color: #ffffff;
+        margin: 0 0 5px;
+        }
+
+        .page-subtitle {
+        color: #ffffff;
+        margin-top: 5px;
+        }
+
+        .page-logo {
+        width: 200px;
+        }
+
+        .alura-logo {
+        width: 40px;
+        position: absolute;
+        top: 10px;
+        right:10px;
+        }
+    </style>
+    <script>
+        var temperaturaCelsius = prompt("Qual temperatura em Celsius?")
+
+        var temperaturaFahrenheit = (temperaturaCelsius * 9 / 5) + 32
+
+        alert("Resultado em Fahrenheit: " + temperaturaFahrenheit)
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de temperaturas
+      </h1>
+      <p class="page-subtitle">
+        De Celsius para Fahrenheit
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      
+      
+    </div>
+      
+  </body>
+</html>
